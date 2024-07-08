@@ -1,0 +1,24 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "FullStackApp",
+  "functionName": "FullStackAppPostConfirmation",
+  "resourceName": "FullStackAppPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\amplify-cli\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "FullStackAppPostConfirmation",
+  "skipEdit": true,
+  "permissions": {
+    "storage": {
+      "Author:@model(appsync)": [
+        "create",
+        "read"
+      ]
+    }
+  }
+}

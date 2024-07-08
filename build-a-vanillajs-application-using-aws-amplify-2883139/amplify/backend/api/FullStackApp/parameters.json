@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "FullStackApp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authFullStackApp",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-07-08T21:21:08.126Z"
+}

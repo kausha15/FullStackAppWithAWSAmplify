@@ -1,0 +1,16 @@
+{
+  "resourceName": "binaryvillepics",
+  "policyUUID": "47dc53f3",
+  "bucketName": "binaryvillepics",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

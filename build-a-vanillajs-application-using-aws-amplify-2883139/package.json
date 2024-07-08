@@ -1,0 +1,34 @@
+{
+    "name": "build-a-vanillajs-application-using-aws-amplify-2883139",
+    "version": "1.0.0",
+    "description": "This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "npx parcel build index.html sign-in.html confirm.html sign-up.html --public-url ./ --no-scope-hoist",
+        "amplify-modelgen": "node amplify\\scripts\\amplify-modelgen.js",
+        "amplify-push": "node amplify\\scripts\\amplify-push.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LinkedInLearning/build-a-vanillajs-application-using-aws-amplify-2883139.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LinkedInLearning/build-a-vanillajs-application-using-aws-amplify-2883139/issues"
+    },
+    "homepage": "https://github.com/LinkedInLearning/build-a-vanillajs-application-using-aws-amplify-2883139#readme",
+    "devDependencies": {
+        "babel-core": "^4.7.16",
+        "babel-preset-env": "^0.0.0",
+        "ini": "^1.3.5",
+        "inquirer": "^6.5.1",
+        "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+        "aws-amplify": "^6.3.8",
+        "typescript": "^4.9.5"
+    }
+}

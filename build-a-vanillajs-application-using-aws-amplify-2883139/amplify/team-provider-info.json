@@ -1,0 +1,33 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fullstackapp-staging-5b508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533267106119:role/amplify-fullstackapp-staging-5b508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533267106119:role/amplify-fullstackapp-staging-5b508-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fullstackapp-staging-5b508-deployment",
+      "UnauthRoleName": "amplify-fullstackapp-staging-5b508-unauthRole",
+      "StackName": "amplify-fullstackapp-staging-5b508",
+      "StackId": "arn:aws:cloudformation:us-east-1:533267106119:stack/amplify-fullstackapp-staging-5b508/9c978f00-35ac-11ef-ac3b-0e33caea2181",
+      "AmplifyAppId": "dt3qha8pujuxs",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-fullstackapp-staging-5b508-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "FullStackApp": {}
+      },
+      "api": {
+        "FullStackApp": {}
+      },
+      "storage": {
+        "binaryvillepics": {}
+      },
+      "function": {
+        "FullStackAppPostConfirmation": {
+          "deploymentBucketName": "amplify-fullstackapp-staging-5b508-deployment",
+          "s3Key": "amplify-builds/FullStackAppPostConfirmation-7a494f76365a41633036-build.zip"
+        }
+      }
+    }
+  }
+}

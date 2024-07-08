@@ -1,0 +1,73 @@
+.hidden {
+  display: none;
+}
+
+.header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+#sign-out {
+  padding: 12px;
+}
+
+#sign-in {
+  padding-right: 8px;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: #3a3a3d; 
+ }
+
+input[type='submit'] {
+  margin-top: 10px;
+  border: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.post {
+  max-width: 400px;
+  border-radius: 4px;
+  margin: 4px auto;
+  border: 1px solid grey;
+  padding: 4px 0;
+}
+
+.post img {
+  max-width: calc(100% - 8px);
+  display: block;
+  margin: 0 auto;
+}
+
+.post p {
+  padding: 4px;
+}
+
+.form {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.form input {
+  display: block;
+  margin: 0 auto;
+}
+
+.form label {
+  padding: 10px;
+}
+
+.form h2 {
+  font-weight: bold;
+}
